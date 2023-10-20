@@ -7,8 +7,6 @@ let humanScoreNumber = 0;
 let machineScoreNumber = 0;
 let drawScoreNumber = 0;
 
-console.log(machineScore)
-
 const playHuman = (humanChoise) => {
   playTheGame(humanChoise, playMachine());
 };
@@ -25,6 +23,7 @@ const playTheGame = (human, machine) => {
     drawScoreNumber++
     drawScore.innerHTML = drawScoreNumber;
     result.innerHTML = "Empate!";
+    result.style.color = "#808080";
   } else if (
     (human === "rock" && machine === "scissors") ||
     (human === "paper" && machine === "rock") ||
@@ -33,9 +32,19 @@ const playTheGame = (human, machine) => {
     humanScoreNumber++
     humanScore.innerHTML = humanScoreNumber;
     result.innerHTML = "Você Venceu!";
+    result.style.color = "#3c9d2f";
   } else {
     machineScoreNumber++
     machineScore.innerHTML = machineScoreNumber;
     result.innerHTML = "Você Perdeu!";
+    result.style.color = "#ff0000";
   }
 };
+
+const reset = () => {
+    result.innerHTML = "Resultado";
+    result.style.color = "#ffffff";
+    humanScore.innerHTML = "0";
+    machineScore.innerHTML = "0";
+    drawScore.innerHTML = "0";
+}
