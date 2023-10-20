@@ -65,6 +65,10 @@ button:hover {
     opacity: 0.8;
 }
 
+button:active{
+    opacity: 100%;
+}
+
 #rock {
     background: var(--gray-color);
 }
@@ -101,4 +105,13 @@ h3 {
 
 .draws span {
     color: var(--gray-color);
+}
+
+.button-reset {
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;    
+    text-transform: uppercase;
+    margin-top: 10px;
+    background-color: var(--red-color);
 }
