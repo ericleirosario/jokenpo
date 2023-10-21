@@ -115,3 +115,18 @@ h3 {
     margin-top: 10px;
     background-color: var(--red-color);
 }
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 96%;
+        padding: 20px 0;
+    }
+
+    .buttons-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+}
