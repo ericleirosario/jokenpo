@@ -9,7 +9,7 @@
 <br>
 
 <div align=center>  
-    <img width=180px heigth=auto src="https://raw.githubusercontent.com/ericleirosario/jokenpo/7311e0d39df8e871dd580800b5e65e23437b3533/img/mobile-jokenpo.png" alt="Jokenpô Mobile"/>
+    <img width=186px heigth=auto src="https://raw.githubusercontent.com/ericleirosario/jokenpo/7311e0d39df8e871dd580800b5e65e23437b3533/img/mobile-jokenpo.png" alt="Jokenpô Mobile"/>
     <img width=635px heigth=auto src="https://raw.githubusercontent.com/ericleirosario/jokenpo/7311e0d39df8e871dd580800b5e65e23437b3533/img/desktop-jokenpo.png" alt="Jokenpô Desktop"/>  
 </div>
 
